@@ -1,2 +1,2 @@
 # Ioscalculator
-Ios design calculator for brouser
+Ios design calculator for browser
