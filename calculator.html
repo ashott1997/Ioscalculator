@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IOS Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="Loading()">
+	<div class="main">
+		<div class="monitor">
+			<input type="text" id="monitor" name="">
+			<input type="text" id="monitor_eval" name="">
+		</div>
+		<div class="buttons">
+			<input type="button" class="but" name=""  onclick="Clear(this)" value="C"> 
+			<input type="button" class="but" name="" onclick="Clicked(this)" value="+/-">
+			<input type="button" class="but" name="" onclick="Clicked(this)" value="%">
+			<input type="button" class="but other_but" onclick="Clicked(this)" name="" value="/">
+			<input type="button" class="but"  name="" onclick="Clicked(this)" value="7">
+			<input type="button" class="but"  name="" onclick="Clicked(this)" value="8">
+			<input type="button" class="but"  name=""  onclick="Clicked(this)" value="9">
+			<input type="button" class="but other_but" onclick="Clicked(this)" name="" value="*">
+			<input type="button" class="but"  name=""  onclick="Clicked(this)" value="4">
+			<input type="button" class="but"  name="" onclick="Clicked(this)"  value="5">
+			<input type="button" class="but"  name=""  onclick="Clicked(this)" value="6">
+			<input type="button" class="but other_but" onclick="Clicked(this)"  name="" value="-">
+			<input type="button" class="but"  name=""  onclick="Clicked(this)" value="1">
+			<input type="button" class="but"  name="" onclick="Clicked(this)" value="2">
+			<input type="button" class="but"  name="" onclick="Clicked(this)" value="3">
+			<input type="button" class="but other_but" onclick="Clicked(this)" name="" value="+">
+			<input type="button" class="but zero"  name="" onclick="Clicked(this)" value="0">
+			<input type="button" class="but"  name=""  onclick="Clicked(this)" value=",">
+			<input type="button" class="but other_but" name="" onclick="Eval(this)" value="=">
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="engine.js">s</script>
+</body>
+</html>
